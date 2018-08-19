@@ -1,0 +1,209 @@
+body{
+    margin: 0;  
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(0, 255, 85);
+}
+ 
+nav a:hover{
+    color: rgb(249, 57, 205);
+}
+
+header{
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.938);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#inicio{
+    height: 90vh;
+    background-image: url("imagens/img4.jpeg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    width: 20vw;
+}
+
+.login p{
+    font-size: 15pt;
+    text-align: center;
+    margin-bottom: 7%;
+}
+
+.botoes{
+    width: 35%;
+    height: 18%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.288);
+    border-radius: 10px;
+}
+
+.botoes div{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botoes img{
+    width: 40px;
+    height: 40px;
+}
+
+.botoes p{
+    font-size: 10pt;
+}
+
+.botoes img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#sobre{
+    background-color: rgba(0, 0, 0, 0.938);
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.descricao{
+    height: 90%;
+    width: 45%;
+    text-align: center;
+}
+
+#sobre h2{
+    text-align: center;
+    color: white;
+}
+
+.descricao p{
+    color: white;
+}
+
+#equipe{
+    height: 300px;
+    background-color: rgba(211, 211, 211, 0.26);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fotos{
+    height: 95%;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.fotos h2{
+    font-size: 35pt;
+}
+
+.fotos h3{
+    margin: 0;
+    font-size: 12pt;
+
+}
+.fotos p{
+    margin: 0;
+
+}
+.fotos img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+#contato{
+    background-color: rgba(0, 0, 0, 0.938);
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contato p{
+    margin: 0;
+    color: white;
+}
+
+#contato h2{
+    color: white;
+}
+
+
+.emailnome{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+}
+
+input{
+    margin: 5px;
+    border-radius: 5px;
+    border: solid rgba(0, 0, 0, 0.226) 1px;
+    padding: 2px;
+}
+
+.emailnome input{
+    height: 25px;
+    width: 300px;
+}
+
+.msg input{
+    width: 300px;
+    height: 105px;
+}
+
+button{
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 60px;
+    font-size: 12pt;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media
