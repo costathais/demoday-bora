@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="script.js" defer></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-
     <link rel="stylesheet" href="style.css">
     <title>BORA?</title>
 </head>
@@ -24,22 +24,21 @@
 
     <section id="inicio">
         <div class="login">
-            <!-- <h1>BORA?</h1> -->
             <img class="logo" src="imagens/logo.svg" alt="">
             <p>Voluptatem rerum et explicabo. Explicabo nesciunt ex ducimus aut voluptatem necessitatibus est est. Ipsum laudantium
                 quidem aliquam. Aliquid tempore aut ut animi harum explicabo provident. </p>
         </div>
         <div class="botoes">
             <div>
-                <img src="imagens/login.png" alt="">
+                <img class="entrar" src="imagens/login.png" alt="">
                 <p>Entre</p>
             </div>
             <div>
-                <img src="imagens/test.png" alt="">
+                <img class="cadastro" src="imagens/test.png" alt="">
                 <p>Cadastre-se</p>
             </div>
             <div>
-                <img src="imagens/forgot.png" alt="">
+                <img class="senha" src="imagens/forgot.png" alt="">
                 <p>Esqueceu a senha?</p>
             </div>
         </div>
@@ -110,10 +109,29 @@
         <button type="submit">Enviar</button>
     </section>
 
+    
     <footer>
         <p>COPYRIGHT © BORA 2018</p>
     </footer>
+    
+    <section id="modalLogin">
+        <div class="divLogin">
+            <h3>Login</h3>
+            <div class="inputsLogin">
+                <input type="text" name="usuario" id="usuario" placeholder="Usuário" >  
+                <input type="password" name="password" id="password" placeholder="Senha"> 
+            </div>
 
+            <button class="botaoEntrar">Entrar</button> 
+
+            <div class="fbgoogle">
+                <img src="imagens/fb.png" alt="facebook">
+                <img src="imagens/google.png" alt="google">
+            </div>            
+
+        </div>
+    
+    </section>
 </body>
 
 </html>

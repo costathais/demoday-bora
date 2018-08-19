@@ -1,6 +1,7 @@
 body{
     margin: 0;  
     font-family: 'Open Sans', sans-serif;
+    position: relative;
 }
 
 nav{
@@ -198,6 +199,7 @@ button{
     height: 35px;
     width: 60px;
     font-size: 12pt;
+    background-color: white;
 }
 
 footer{
@@ -206,4 +208,59 @@ footer{
     align-items: center;
 }
 
-@media
+#modalLogin{
+    display: none;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(252, 252, 252, 0.281);
+    top: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.divLogin{
+    background-color: black;
+    width: 50vw;
+    height: 75vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.inputsLogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputsLogin input{
+    height: 35px;
+    width: 400px;
+    margin: 4%;
+}
+
+.fbgoogle img{
+    width: 50px;
+    height: 5 0px;
+    margin: 20px 0;
+}
+
+#modalLogin h3{
+    color:  rgb(0, 255, 85);
+    font-size: 35pt;
+    margin-bottom: 0;
+}
+
+.botaoEntrar{
+    height: 45px;
+    width: 150px;
+    font-size: 14pt;
+}
+
+.botaoEntrar:hover{
+    cursor: pointer;
+}
