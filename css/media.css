@@ -1,0 +1,89 @@
+
+@media(max-width: 1050px){
+    .botoes{
+        width: 50%;
+        height: 18%;
+    }
+}
+
+@media(max-width: 850px){
+    .botoes{
+        width: 70%;
+        height: 18%;
+    }
+
+    #sobre{
+        height: 450px;
+    }
+}
+
+@media(max-width: 650px){
+    #sobre{
+        height: 350px;
+
+    }
+    .descricao{
+        width: 70vw;
+    }
+
+    .descricao p{
+        text-align: justify;
+        font-size: 11pt;
+    }
+
+    .logo{
+        width: 300px;
+    }
+
+    
+    #equipe{
+        display: none;
+    }
+
+    #contato{
+        display: none;
+    }
+
+    .fotos{
+        height: 60%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .inputs{
+        flex-direction: column;
+    }
+
+    .inputs input{
+        width: 250px;
+    }
+
+}
+
+@media(max-width: 450px){
+    nav{
+        display: none;
+    }
+
+    #hamburger{
+        display: flex;
+        margin-right: 5%;
+    }
+    header{
+        justify-content: flex-end;
+    }
+
+    .botoes{
+        flex-direction: column;width: 35%;
+        height: 60vh;
+        margin-bottom: 5%;
+    }
+
+    .botoes div{
+        width: 100%;
+    }
+
+    #sobre{
+        height: 400px;
+    }
+   
+}
