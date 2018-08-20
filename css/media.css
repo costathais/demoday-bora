@@ -4,6 +4,16 @@
         width: 50%;
         height: 18%;
     }
+
+    .inputsLogin input{
+        width: 350px;
+    }
+    
+    #modalLogin h3{
+        font-size: 25pt;
+    }
+    
+
 }
 
 @media(max-width: 850px){
@@ -14,6 +24,10 @@
 
     #sobre{
         height: 450px;
+    }
+
+    .inputsLogin input{
+        width: 280px;
     }
 }
 
@@ -49,12 +63,17 @@
         flex-direction: column;
         justify-content: center;
     }
+
     .inputs{
         flex-direction: column;
     }
 
     .inputs input{
         width: 250px;
+    }
+
+    .divLogin{
+        width: 75vw;
     }
 
 }
@@ -68,6 +87,7 @@
         display: flex;
         margin-right: 5%;
     }
+
     header{
         justify-content: flex-end;
     }
@@ -85,5 +105,28 @@
     #sobre{
         height: 400px;
     }
-   
+
+    .divLogin{
+        height: 60vh;
+    }
+
+    .inputsLogin input{
+        margin: 2%;
+        width: 200px;
+        box-sizing: border-box;
+    }
+
+    .botaoEntrar{
+        height: 35px;
+        width: 120px;
+        font-size: 14pt;
+    }
+
+    .fbgoogle img{
+        width: 35px;
+    }
+
+    #modalLogin h3{
+        font-size: 20pt;
+    }
 }
